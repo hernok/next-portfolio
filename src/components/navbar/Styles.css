@@ -1,0 +1,12 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.spin-180 {
+  animation: spin 0.5s ease-in-out forwards;
+}
