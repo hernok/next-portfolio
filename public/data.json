@@ -1,59 +1,59 @@
 [
-	{
-		"id": 1,
-		"date": "01.12.2022",
-		"project_name": "PokeAPI - React exam",
-		"description": "A pokemon application made with React, display all kinds of pokemon, click them to view their evolutions.",
-		"live": true,
-		"git": "https://github.com/hernok/PokeAPI-Eksamen-i-React",
-		"href": "https://hernok.github.io/PokeAPI-Eksamen-i-React",
-		"image": "pokeapi-preview.png",
-		"alt": "PokeAPI React exam website preview"
-	},
-	{
-		"id": 2,
-		"date": "09.12.2022",
-		"project_name": "NodeJS exam",
-		"description": "A recipe database with tiers, recipes for both free and premium users. Made with SQLite3 and NodeJS.",
-		"live": false,
-		"git": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
-		"href": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
-		"image": "nodejs-sqlite.png",
-		"alt": "NodeJS recipe database preview"
-	},
+  {
+    "id": 1,
+    "date": "01.12.2022",
+    "project_name": "PokeAPI - React eksamen",
+    "description": "En nettside som viser alle slags pokemon. Trykk på en for å se utviklinger.",
+    "live": true,
+    "git": "https://github.com/hernok/PokeAPI-Eksamen-i-React",
+    "href": "https://hernok.github.io/PokeAPI-Eksamen-i-React",
+    "image": "pokeapi-preview.png",
+    "alt": "PokeAPI React eksamen nettside forhåndsvisning."
+  },
+  {
+    "id": 2,
+    "date": "09.12.2022",
+    "project_name": "NodeJS exam",
+    "description": "En oppskriftsdatabase, premium brukere har tilgang til flere oppskrifter. Laget med SQLite3 og NodeJS.",
+    "live": false,
+    "git": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
+    "href": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
+    "image": "nodejs-sqlite.png",
+    "alt": "NodeJS oppskrift database med postman forhåndsvisning."
+  },
 
-	{
-		"id": 3,
-		"date": "26.01.2023",
-		"project_name": "Saga Farmann",
-		"description": "Saga Farmann is a web application for a viking boat expedition. Made with NextJS + TypeScript.Wordpress headless CMS for backend",
-		"git": "https://github.com/larsbill/Saga-Farmann",
-		"live": true,
-		"href": "https://sagafarmann.com/",
-		"image": "saga-farmann.png",
-		"alt": "Saga-farmann website preview"
-	},
-	{
-		"id": 5,
-		"date": "08.05.2023",
-		"project_name": "Front-end programmering arbeidskrav",
-		"description": "Local hotdog stands in sandefjord. Made using NextJS and NodeJS. For premium users: username: premium, password: premium123. For administrators: username: admin, password: admin123",
-		"live": true,
-		"git": "https://github.com/hernok/Front-end-arbeidskrav",
-		"href": "https://front-end-arbeidskrav.vercel.app/",
-		"image": "front-end-arbeidskrav.png",
-		"alt": "Hotdot shops preview"
-	},
-	{
-		"id": 6,
-		"date": "08.08.2023",
-		"project_name": "Divination Card Profit Calculator",
-		"description": "An application that calculates potential profit for turning in divination cards in Path of Exile. Made using React and TypeScript",
+  {
+    "id": 3,
+    "date": "26.01.2023",
+    "project_name": "Saga Farmann",
+    "description": "Følg ekpedisjonen til Saga Farmann gjennom europas elver, fra Norge til Istanbul/ Miklagard. Laget med NextJS + Typescript. Designet i AdobeXD. Wordpress headless CMS for backend.",
+    "git": "https://github.com/larsbill/Saga-Farmann",
+    "live": true,
+    "href": "https://sagafarmann.com/",
+    "image": "saga-farmann.png",
+    "alt": "Saga-farmann nettside forhåndsvisning."
+  },
+  {
+    "id": 5,
+    "date": "08.05.2023",
+    "project_name": "Front-end programmering arbeidskrav",
+    "description": "Lokale hotdog stander i Sandefjord.  Laget med NextJS og NodeJS. For premium bruker inlogging: brukernavn: premium, password: premium123. For administrator: username: admin, password: admin123",
+    "live": true,
+    "git": "https://github.com/hernok/Front-end-arbeidskrav",
+    "href": "https://front-end-arbeidskrav.vercel.app/",
+    "image": "front-end-arbeidskrav.png",
+    "alt": "Hotdot stander forhondsvisning.."
+  },
+  {
+    "id": 6,
+    "date": "08.08.2023",
+    "project_name": "Divination Card Profit Calculator",
+    "description": "En nettside som regner ut potensiell fortjeneste for levering av divination cards i Path of Exile. Laget med React og TypeScript.",
 
-		"live": false,
-		"git": "https://github.com/hernok/div-card-profit",
-		"href": "https://github.com/hernok/div-card-profit",
-		"image": "div-card-profit.png",
-		"alt": "Divination card profit preview."
-	}
+    "live": false,
+    "git": "https://github.com/hernok/div-card-profit",
+    "href": "https://github.com/hernok/div-card-profit",
+    "image": "div-card-profit.png",
+    "alt": "Divination card profit forhåndsvisning."
+  }
 ]
