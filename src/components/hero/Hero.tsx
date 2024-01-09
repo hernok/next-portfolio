@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="text-center p-10">
+    <div className="text-center px-10 py-10 lg:py-30">
       <h2 className="text-gray-800 text-4xl py-2 md:text-5xl dark:text-gray-200">
         Herman Tjomstøl Novak
       </h2>

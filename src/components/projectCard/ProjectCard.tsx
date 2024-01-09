@@ -50,7 +50,7 @@ const ProjectCard = () => {
     <>
       {projects.map((project) => (
         <div
-          className="shadow-xl rounded-xl bg-white mb-4 lg:mb-0 flex flex-col justify-between overflow-hidden dark:bg-slate-900"
+          className="shadow-xl rounded-xl bg-white mb-10 lg:mb-0 flex flex-col justify-between overflow-hidden dark:bg-slate-900"
           key={project.id}
         >
           <div className="w-full h-80 overflow-hidden relative">
@@ -58,14 +58,15 @@ const ProjectCard = () => {
               src={`/assets/${project.image}`}
               alt={project.alt}
               className="absolute w-full h-full object-cover"
-              layout="fill"
+              width={1000}
+              height={1000}
             />
           </div>
           <div className="p-10 flex flex-col justify-between flex-grow">
             <div>
               <h2 className="text-2xl mb-3">{project.project_name}</h2>
               {project.live && (
-                <button className=" py-1 px-2 bg-blue-100 rounded-xl dark:bg-blue-800">
+                <button className=" py-1 px-2 bg-blue-600 rounded-xl dark:bg-blue-800 ">
                   <a
                     href={project.href}
                     className="text-gray-200 dark:text-white font-medium"
@@ -84,7 +85,7 @@ const ProjectCard = () => {
                   <button className="cursor-pointer flex items-center mb-1">
                     <a
                       href={`${project.git}`}
-                      className=" text-md inline-flex items-center underline"
+                      className=" text-md inline-flex items-center underline hover:text-blue-500"
                     >
                       View on GitHub
                     </a>

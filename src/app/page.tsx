@@ -19,10 +19,10 @@ export default function Home() {
           <div className="mb-40">
             <ToolCard />
           </div>
-          <h2 className="text-gray-800 text-3xl text-center lg:text-4xl dark:text-gray-200">
+          <h2 className="text-gray-800 lg:pb-10 text-3xl text-center lg:text-5xl dark:text-gray-200">
             Prosjekter
           </h2>
-          <div className="py-5 gap-4 sm:gap-5 md:gap-6 lg:grid 2xl:grid-cols-2 3xl:grid-cols-3 lg:gap-14">
+          <div className="py-5 lg:grid 2xl:grid-cols-2 3xl:grid-cols-3 lg:gap-14">
             <ProjectCard />
           </div>
         </section>
