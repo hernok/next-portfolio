@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import React, { useState, useEffect } from "react";
+import { AiFillGithub } from "react-icons/ai";
 
 type Project = {
   id: number;
@@ -50,7 +50,7 @@ const ProjectCard = () => {
     <>
       {projects.map((project) => (
         <div
-          className="shadow-xl rounded-xl bg-white mb-4 lg:mb-0 flex flex-col justify-between overflow-hidden"
+          className="shadow-xl rounded-xl bg-white mb-4 lg:mb-0 flex flex-col justify-between overflow-hidden dark:bg-slate-900"
           key={project.id}
         >
           <div className="w-full h-80 overflow-hidden relative">
@@ -63,12 +63,17 @@ const ProjectCard = () => {
           </div>
           <div className="p-10 flex flex-col justify-between flex-grow">
             <div>
+              <h2 className="text-2xl mb-3">{project.project_name}</h2>
               {project.live && (
-                <div>
-                  <a href={project.href}>View in browser</a>
-                </div>
+                <button className=" py-1 px-2 bg-blue-100 rounded-xl dark:bg-blue-800">
+                  <a
+                    href={project.href}
+                    className="text-gray-200 dark:text-white font-medium"
+                  >
+                    View in browser
+                  </a>
+                </button>
               )}
-              <h2 className="text-2xl">{project.project_name}</h2>
               <div className="mt-5">
                 <p>{project.description}</p>
               </div>
@@ -76,8 +81,16 @@ const ProjectCard = () => {
             <div className="mt-5">
               <div className="flex justify-between lg:block">
                 {project.git && (
-                  <button className="cursor-pointer">
-                    <a href={`${project.git}`}>View on GitHub</a>
+                  <button className="cursor-pointer flex items-center mb-1">
+                    <a
+                      href={`${project.git}`}
+                      className=" text-md inline-flex items-center underline"
+                    >
+                      View on GitHub
+                    </a>
+                    <p className="text-2xl ml-2">
+                      <AiFillGithub />
+                    </p>
                   </button>
                 )}
                 <p>{project.date}</p>
