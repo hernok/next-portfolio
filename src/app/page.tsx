@@ -3,17 +3,20 @@ import Hero from "@/components/hero/Hero";
 import ParticleContainer from "@/components/particles/ParticleContainer";
 import ProjectCard from "@/components/projectCard/ProjectCard";
 import ToolCard from "@/components/toolCard/ToolCard";
+import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
 
 export default function Home() {
   return (
     <div>
+      <ParticleContainer />
       <main className="bg-gray-50 px-3 md:px-20 lg:px-60 dark:bg-slate-800">
         <section className="min-h-screen">
-          <ParticleContainer />
           <Hero />
-          <div className="text-gray-800 text-4xl flex justify-center gap 16 dark:text-gray-200">
-            <AiFillGithub />
+          <div className="text-gray-800 text-4xl flex justify-center gap 16 dark:text-gray-200 cursor-pointer">
+            <Link href="https://github.com/hernok">
+              <AiFillGithub />
+            </Link>
           </div>
         </section>
         <section>
