@@ -14,7 +14,7 @@
     "id": 2,
     "date": "09.12.2022",
     "project_name": "NodeJS exam",
-    "description": "En oppskriftsdatabase, premium brukere har tilgang til flere oppskrifter. Laget med SQLite3 og NodeJS.",
+    "description": "En oppskriftsdatabase, premium brukere har tilgang til flere oppskrifter, admin kan redigere oppskrifter. Laget med SQLite3 og NodeJS.",
     "live": false,
     "git": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
     "href": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
@@ -47,8 +47,8 @@
   {
     "id": 6,
     "date": "08.08.2023",
-    "project_name": "Divination Card Profit Calculator",
-    "description": "En nettside som regner ut potensiell fortjeneste for levering av divination cards i Path of Exile. Laget med React og TypeScript.",
+    "project_name": "Divination Card Return Calculator",
+    "description": "En applikasjon som regner ut potensiell fortjeneste for levering av divination cards i Path of Exile. Laget med React og TypeScript.",
 
     "live": false,
     "git": "https://github.com/hernok/div-card-profit",
