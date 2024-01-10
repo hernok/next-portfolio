@@ -24,7 +24,7 @@ const Navbar = () => {
         </li>
         <li>
           <button
-            className="text-sm md:text-lg text-white bg-gradient-to-r from-gray-800 to-gray-700 px-3 py-1 rounded-lg sm:ml-2 md:ml-8 cursor-pointer dark:text-slate-900 dark:from-slate-100 dark:to-slate-200"
+            className="text-sm md:text-lg dark:font-bold text-white bg-gradient-to-r from-gray-800 to-gray-700 px-3 py-1 rounded-lg sm:ml-2 md:ml-8 cursor-pointer dark:text-slate-900 dark:from-slate-100 dark:to-slate-200"
             onClick={handleDownload}
           >
             Last ned CV
