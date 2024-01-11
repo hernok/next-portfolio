@@ -54,7 +54,7 @@ const ProjectCard = () => {
           className="shadow-xl dark:shadow-lg rounded-xl bg-white mb-10 lg:mb-0 flex flex-col overflow-hidden dark:bg-slate-900"
           key={project.id}
         >
-          <div className="w-full h-40 sm:h-80 overflow-hidden relative">
+          <div className="w-full h-80 overflow-hidden relative">
             <Link href={project.href}>
               <Image
                 src={`/assets/${project.image}`}
@@ -65,7 +65,7 @@ const ProjectCard = () => {
               />
             </Link>
           </div>
-          <div className="flex flex-col h-full p-2 md:p-10">
+          <div className="flex flex-col flex-grow p-2 md:p-10">
             <div className="flex-grow">
               <h2 className="text-lg md:text-2xl pb-3 font-semibold text-teal-600 dark:text-teal-400">
                 {project.project_name}
