@@ -3,7 +3,7 @@
     "id": 1,
     "date": "01.12.2022",
     "project_name": "PokeAPI - React eksamen",
-    "description": "En nettside som viser alle slags pokemon. Trykk på en for å se utviklinger.",
+    "description": "En nettside som viser alle slags pokemon. Trykk på en for å se utviklinger. Laget med React.",
     "live": true,
     "git": "https://github.com/hernok/PokeAPI-Eksamen-i-React",
     "href": "https://hernok.github.io/PokeAPI-Eksamen-i-React",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "date": "09.12.2022",
-    "project_name": "NodeJS exam",
+    "project_name": "NodeJS eksamen",
     "description": "En oppskriftsdatabase, premium brukere har tilgang til flere oppskrifter, admin kan redigere oppskrifter. Laget med SQLite3 og NodeJS.",
     "live": false,
     "git": "https://github.com/hernok/Webtechnology-NodeJS-Exam",
@@ -37,12 +37,12 @@
     "id": 5,
     "date": "08.05.2023",
     "project_name": "Front-end programmering arbeidskrav",
-    "description": "Lokale hotdog stander i Sandefjord.  Laget med NextJS og NodeJS. For premium bruker inlogging: brukernavn: premium, password: premium123. For administrator: username: admin, password: admin123",
+    "description": "Lokale hotdog stander i Sandefjord.  Laget med NextJS og NodeJS. For premium bruker inlogging: brukernavn: premium, password: premium123. For administrator: username: admin, password: admin123.",
     "live": true,
     "git": "https://github.com/hernok/Front-end-arbeidskrav",
     "href": "https://front-end-arbeidskrav.vercel.app/",
     "image": "front-end-arbeidskrav.png",
-    "alt": "Hotdot stander forhondsvisning.."
+    "alt": "Hotdot stander forhondsvisning."
   },
   {
     "id": 6,
