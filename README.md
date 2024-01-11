@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Portfolio
+
+## Overview
+
+Welcome to **Next Portfolio**, a modern and responsive portfolio template designed by me. This portfolio is built using Next.js 14 and TypeScript, and it's styled with the Tailwind CSS framework.
+
+## Features
+
+- **Next.js 14 and TypeScript:** The latest version of Next.js with the robustness of TypeScript for scalable and maintainable code.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development. The default theme is set to Dark Mode, providing a sleek and modern look.
+- **Responsive Dark Mode:** Integrated dark mode support in the navigation bar for a comfortable viewing experience in different lighting conditions.
+- **AWS S3 Integration:** CV download functionality implemented using AWS S3, ensuring secure and reliable file hosting and retrieval.
+- **Rate-Limited API:** The Next.js API is utilized with rate limiting to ensure the application's stability and prevent abuse.
+- **Project Card Data:** Dynamic loading of project information from a `data.json` file located in the public folder, making it easy to update and maintain project details.
+- **Environment Variables:** Use of `.env.local` for securely storing and accessing API keys and other sensitive data.
+- **Vercel Hosting:** The project is deployed on Vercel, showcasing the power of serverless deployment. [View Live Site](https://next-portfolio-ruby-two.vercel.app/)
+- **Interactive Hero Section:** The hero section uses `tsparticles` for an engaging and interactive user experience.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, clone the repository to your local machine. Ensure you have Node.js installed, and then run the following commands:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install   # Install dependencies
+npm run dev   # Run the development server
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Before running the project, create a `.env.local` file in the root directory and add your API keys and other sensitive data:
 
-## Learn More
+```env
+# Example
+NEXT_PUBLIC_API_KEY=your_api_key_here
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Herman Novak**

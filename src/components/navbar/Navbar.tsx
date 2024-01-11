@@ -6,9 +6,17 @@ const Navbar = () => {
   const handleDownload = async () => {
     try {
       const response = await fetch("/api/downloadCv");
+
+      if (response.status === 429) {
+        const rateLimitData = await response.json();
+        alert(rateLimitData.message);
+        return;
+      }
+
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
+
       const data = await response.json();
       window.location.href = data.url;
     } catch (error) {
