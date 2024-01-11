@@ -6,7 +6,7 @@ import communicate from "/public/assets/group.png";
 
 const ToolCard = () => {
   return (
-    <div className="mt-20 lg:flex gap-10 ">
+    <div className="mt-20 xl:flex gap-10">
       <div className=" bg-white flex-1 text-center shadow-lg p-10 mb-10 rounded-xl dark:bg-slate-900">
         <Image
           className="mx-auto"
@@ -75,6 +75,7 @@ const ToolCard = () => {
         <h4 className="text-xl font-semibold py-4 text-teal-600">
           Andre verktøy
         </h4>
+        <p className="text-gray-800 font-medium py-1 dark:text-gray-200">AWS</p>
         <p className="text-gray-800 font-medium py-1 dark:text-gray-200">
           Slack
         </p>
