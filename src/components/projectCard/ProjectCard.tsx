@@ -95,7 +95,6 @@ const ProjectCard = () => {
                       View on GitHub
                     </a>
                     <p className="text-xl md:text-2xl ml-2">
-                      {/* Assuming AiFillGithub is an icon component */}
                       <AiFillGithub />
                     </p>
                   </button>
@@ -121,9 +120,3 @@ const ProjectCard = () => {
 };
 
 export default ProjectCard;
-/*
-
-
-
-
- */
