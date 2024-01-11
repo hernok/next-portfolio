@@ -50,7 +50,7 @@ const ProjectCard = () => {
 		<>
 			{projects.map((project) => (
 				<div
-					className="shadow-xl rounded-xl bg-white mb-10 lg:mb-0 flex flex-col justify-between overflow-hidden dark:bg-slate-900"
+					className="shadow-xl dark:shadow-lg rounded-xl bg-white mb-10 lg:mb-0 flex flex-col justify-between overflow-hidden dark:bg-slate-900"
 					key={project.id}
 				>
 					<div className="w-full h-40 sm:h-80 overflow-hidden relative">
@@ -64,7 +64,7 @@ const ProjectCard = () => {
 					</div>
 					<div className="p-2 md:p-10 flex flex-col justify-between flex-grow">
 						<div>
-							<h2 className="text-lg md:text-2xl pb-3 font-semibold  text-teal-600 dark:text-teal-400">
+							<h2 className="text-lg md:text-2xl pb-3 font-semibold text-teal-600 dark:text-teal-400">
 								{project.project_name}
 							</h2>
 							{project.live && (
