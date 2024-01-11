@@ -51,7 +51,7 @@ const ProjectCard = () => {
     <>
       {projects.map((project) => (
         <div
-          className="shadow-xl dark:shadow-lg rounded-xl bg-white mb-10 lg:mb-0 flex flex-col justify-between overflow-hidden dark:bg-slate-900"
+          className="shadow-xl dark:shadow-lg rounded-xl bg-white mb-10 lg:mb-0 flex flex-col overflow-hidden dark:bg-slate-900"
           key={project.id}
         >
           <div className="w-full h-40 sm:h-80 overflow-hidden relative">
@@ -65,8 +65,8 @@ const ProjectCard = () => {
               />
             </Link>
           </div>
-          <div className="p-2 md:p-10 flex flex-col justify-between flex-grow">
-            <div>
+          <div className="flex flex-col h-full p-2 md:p-10">
+            <div className="flex-grow">
               <h2 className="text-lg md:text-2xl pb-3 font-semibold text-teal-600 dark:text-teal-400">
                 {project.project_name}
               </h2>
@@ -80,39 +80,38 @@ const ProjectCard = () => {
                   </a>
                 </button>
               )}
-              <div>
-                <div className="text-sm md:text-base pt-5">
-                  <p>{project.description}</p>
-                </div>
+              <div className="text-sm md:text-base pt-5">
+                <p>{project.description}</p>
               </div>
-              <div className="pt-5 md:flex md:justify-between">
-                <div>
-                  {project.git && (
-                    <button className="cursor-pointer flex items-center pb-1">
-                      <a
-                        href={`${project.git}`}
-                        className="text-xs md:text-lg inline-flex items-center underline hover:text-blue-500"
-                      >
-                        View on GitHub
-                      </a>
-                      <p className="text-xl md:text-2xl ml-2">
-                        <AiFillGithub />
-                      </p>
-                    </button>
-                  )}
-                  <p className="text-xs md:text-sm">{project.date}</p>
-                </div>
-                {project.live && (
-                  <button className="hidden md:block md:my-2 py-1 px-2 bg-blue-600 rounded-xl dark:bg-blue-800">
+            </div>
+            <div className="pt-5 md:flex md:justify-between">
+              <div>
+                {project.git && (
+                  <button className="cursor-pointer flex items-center pb-1">
                     <a
-                      href={project.href}
-                      className="text-gray-200 text-sm md:text-base dark:text-white"
+                      href={`${project.git}`}
+                      className="text-xs md:text-lg inline-flex items-center underline hover:text-blue-500"
                     >
-                      View in browser
+                      View on GitHub
                     </a>
+                    <p className="text-xl md:text-2xl ml-2">
+                      {/* Assuming AiFillGithub is an icon component */}
+                      <AiFillGithub />
+                    </p>
                   </button>
                 )}
+                <p className="text-xs md:text-sm">{project.date}</p>
               </div>
+              {project.live && (
+                <button className="hidden md:block md:my-2 py-1 px-2 bg-blue-600 rounded-xl dark:bg-blue-800">
+                  <a
+                    href={project.href}
+                    className="text-gray-200 text-sm md:text-base dark:text-white"
+                  >
+                    View in browser
+                  </a>
+                </button>
+              )}
             </div>
           </div>
         </div>
@@ -122,3 +121,9 @@ const ProjectCard = () => {
 };
 
 export default ProjectCard;
+/*
+
+
+
+
+ */

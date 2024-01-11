@@ -37,7 +37,7 @@
     "id": 5,
     "date": "08.05.2023",
     "project_name": "Front-end programmering arbeidskrav",
-    "description": "Lokale hotdog stander i Sandefjord.  Laget med NextJS og NodeJS. For premium bruker inlogging: brukernavn: premium, password: premium123. For administrator: username: admin, password: admin123.",
+    "description": "Lokale hotdog stander.  Laget med NextJS og NodeJS. For premium bruker inlogging: brukernavn: premium, password: premium123. For administrator: username: admin, password: admin123.",
     "live": true,
     "git": "https://github.com/hernok/Front-end-arbeidskrav",
     "href": "https://front-end-arbeidskrav.vercel.app/",
@@ -48,7 +48,7 @@
     "id": 6,
     "date": "08.08.2023",
     "project_name": "Divination Card Return Calculator",
-    "description": "En applikasjon som regner ut potensiell fortjeneste for levering av divination cards i Path of Exile. Laget med React og TypeScript.",
+    "description": "En applikasjon som regner ut potensiell fortjeneste for levering av divination cards i Path of Exile ved å sammenligne data hentet fra Poe.ninja. Laget med React og TypeScript.",
 
     "live": false,
     "git": "https://github.com/hernok/div-card-profit",

@@ -11,12 +11,14 @@ export default function Home() {
     <div>
       <ParticleContainer />
       <main className="bg-gray-50 px-3 md:px-20 lg:px-60 dark:bg-slate-800 z-[-2]">
-        <section className="min-h-screen h-screen flex flex-col items-center justify-center relative z-30 max-w-7xl mx-auto">
-          <Hero />
-          <div className="text-gray-800 text-5xl flex justify-center gap-16 dark:text-gray-200">
-            <Link href="https://github.com/hernok">
-              <AiFillGithub className="cursor-pointer" />
-            </Link>
+        <section className="min-h-screen relative z-30 max-w-7xl mx-auto">
+          <div className="flex flex-col items-center justify-center h-full lg:pt-[15%] ">
+            <Hero />
+            <div className="text-gray-800 text-5xl flex justify-center gap-16 dark:text-gray-200">
+              <Link href="https://github.com/hernok">
+                <AiFillGithub className="cursor-pointer" />
+              </Link>
+            </div>
           </div>
         </section>
 
