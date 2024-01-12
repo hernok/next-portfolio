@@ -36,6 +36,12 @@ const Footer = () => {
           >
             GitHub
           </Link>
+          <Link
+            href="https://github.com/hernok/next-portfolio"
+            className="underline cursor-pointer"
+          >
+            Source Code
+          </Link>
         </div>
         <p className="text-sm mt-4">
           © 2024 Herman Tjomstøl Novak. All rights reserved.
