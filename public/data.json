@@ -59,7 +59,7 @@
     "id": 7,
     "date": "29.04.2024",
     "project_name": "Navier USN Website",
-    "description": "Nettsiden til Navier USN. Laget med NextJS 14 og TypeScript. Contentful CMS.",
+    "description": "Nettsiden til Navier USN. Laget med NextJS 14 server components og app router med TypeScript. Contentful CMS.",
     "live": true,
     "git": "https://github.com/NAVIER-USN/NavierWebsite",
     "href": "https://navier-website.vercel.app/",
