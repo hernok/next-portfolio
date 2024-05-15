@@ -26,7 +26,7 @@
     "id": 3,
     "date": "26.01.2023",
     "project_name": "Saga Farmann",
-    "description": "Følg ekpedisjonen til Saga Farmann gjennom europas elver, fra Norge til Istanbul/ Miklagard. Laget med NextJS + Typescript. Designet i AdobeXD. Wordpress headless CMS for backend.",
+    "description": "Følg ekpedisjonen til Saga Farmann gjennom europas elver, fra Norge til Istanbul/ Miklagard. Laget med NextJS + Typescript. Designet i AdobeXD. Wordpress ACF plugin som CMS.",
     "git": "https://github.com/larsbill/Saga-Farmann",
     "live": true,
     "href": "https://sagafarmann.com/",
